@@ -1,0 +1,31 @@
+/* src/app/globals.css */
+
+/* 1. Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Global transitions & font fallback */
+html, body {
+  @apply transition-colors duration-200 ease-in-out;
+}
+
+body {
+  /* fallback if the CSS variable for your Inter font isn’t available */
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+}
+
+/* 3. Your button utilities (unchanged) */
+.btn {
+  @apply inline-block font-medium rounded px-4 py-2 transition;
+}
+.btn-primary {
+  @apply btn bg-indigo-600 text-white hover:bg-indigo-700;
+}
+.btn-outline {
+  @apply btn border border-indigo-600 text-indigo-600 hover:bg-indigo-100;
+}
+.btn:focus {
+  @apply outline-none ring-2 ring-offset-2 ring-indigo-500;
+}
+
