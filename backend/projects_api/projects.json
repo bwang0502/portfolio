@@ -1,0 +1,19 @@
+[
+  {
+    "id": "proj-1",
+    "title": "UCLA Club Recommendation System",
+    "description": "A smart club recommendation system that helps UCLA students find clubs matching their interests using AI-powered matching.",
+    "url": "https://github.com/vedvedere/Hoth_XII_Sleuth",
+    "image": "https://via.placeholder.com/300",
+    "tech": ["Flask", "Scikit-learn", "Gunicorn"]
+  },
+  {
+    "id": "proj-2",
+    "title": "Personal Portfolio",
+    "description": "Personal portfolio site displaying my projects and information",
+    "url": "https://github.com/bwang0502/portfolio",
+    "image": "https://via.placeholder.com/300",
+    "tech": ["Next.js", "Tailwind", "AWS Lambda"]
+  }
+]
+
