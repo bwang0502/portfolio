@@ -19,7 +19,7 @@ export default function Hero() {
           className="text-4xl md:text-5xl font-extrabold"
         >
           Hi, I’m Brian—<br />
-          a Data-Driven Full-Stack Engineer
+          a Data-Driven ML Engineer
         </motion.h1>
 
         <motion.p
@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="text-lg md:text-xl text-white"
         >
-          I am interested in transforming raw data into useful information and building interactive webapps. Currently exploring applications of machine learning through computer vision models.
+          I am interested in transforming raw data into useful information and building interactive webapps. Currently exploring applications of machine learning through Natural Language Processing.
         </motion.p>
 
         <motion.div
@@ -38,7 +38,7 @@ export default function Hero() {
           className="space-x-4"
         >
           <a
-            href="#projects"
+            href="/projects"
             className="btn-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             View Projects

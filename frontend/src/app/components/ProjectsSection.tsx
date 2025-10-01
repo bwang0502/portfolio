@@ -7,17 +7,22 @@ import ProjectCard from "@/app/components/ProjectCard";
 const sampleProjects = [
   {
     title: 'UCLA Club Recommendation System',
-    description: 'A smart club recommendation system that helps UCLA students find clubs matching their interests using AI-powered matching.',
+    description: 'A recommendation system that helps students find clubs using AI-powered matching..',
     tech: ['Flask', 'Scikit-learn', 'Gunicorn'],
-    repoUrl: 'https://github.com/you/kvstore',
+    repoUrl: 'https://github.com/vedvedere/Hoth_XII_Sleuth',
     demoUrl: 'https://www.youtube.com/watch?v=X2y4TXyYJog&list=LL&index=4'
   },
   {
     title: 'Personal Portfolio',
     description: 'Next.js + Tailwind + AWS serverless portfolio site.',
     tech: ['Next.js', 'Tailwind', 'AWS'],
-    repoUrl: 'https://github.com/you/portfolio',
-    demoUrl: 'https://your-domain.dev',
+    repoUrl: 'https://github.com/bwang0502/portfolio',
+  },
+  {
+    title: 'Video Similarity Model',
+    description: 'Siamese Network model detecting duplicate/related media in videos.',
+    tech: ['PyTorch', 'OpenCV', 'Wandb'],
+    repoUrl: 'https://github.com/bwang0502/DSU-Su25-Meta-AI-my-edits',
   },
 ];
 

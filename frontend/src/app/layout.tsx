@@ -1,10 +1,16 @@
 // src/app/layout.tsx
+import type { Metadata } from "next";
 import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+export const metadata: Metadata = {
+  title: "Brian Wang | Portfolio",
+  description: "Projects, writing, and contact.",
+};
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

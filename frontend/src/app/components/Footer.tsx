@@ -7,7 +7,7 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} Brian Wang. All rights reserved.</span>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/bwang0502"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white"
