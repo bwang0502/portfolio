@@ -1,7 +1,6 @@
 // src/app/projects/page.tsx
 'use client';
 
-import { useEffect, useState } from 'react';
 import ProjectCard from '@/app/components/ProjectCard';
 import { projects } from '@/data/projects';
 
