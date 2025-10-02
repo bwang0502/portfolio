@@ -33,8 +33,7 @@ export default function ContactPage() {
       return;
     }
 
-    console.log('CONTACT_ENDPOINT =', CONTACT_ENDPOINT);
-
+    console.log("CONTACT_ENDPOINT =", endpoint);
     try {
       const res = await fetch(endpoint, {
         method: "POST",
